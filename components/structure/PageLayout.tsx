@@ -33,7 +33,7 @@ export default function PageLayout(props: PageLayoutProps) {
           <Group style={{ alignItems: 'center' }}>
             <Stack spacing={0} sx={{flex: 1}}>
               <Title size="md" order={1} mr="auto">ESG Performance NLP Meta-Study</Title>
-              <Text size="xs">Pictet Wealth Management x Effixis</Text>
+              <Text size="xs">Effixis</Text>
             </Stack>
             <ActionIcon variant="subtle" onClick={() => toggleColorScheme()} size={30}>
               {theme.colorScheme === 'dark' ? <IconSun size={16} /> : <IconMoonStars size={16} />}
@@ -44,7 +44,7 @@ export default function PageLayout(props: PageLayoutProps) {
     >
       <Head>
         <title>ESG Performance NLP Meta-Study</title>
-        <meta name="description" content="Pictet Wealth Management x Effixis - ESG Performance NLP Meta-Study" />
+        <meta name="description" content="Effixis - ESG Performance NLP Meta-Study" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {props.children}
